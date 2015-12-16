@@ -1,0 +1,90 @@
+[
+    {
+        "action":  {"type": "block"},
+        "trigger": {"url-filter": "https?://ws.amazon.co.jp/*"}
+    },
+    {
+        "action":  {"type": "block"},
+        "trigger": {"url-filter": "https?://d-track.send.microad.jp/*"}
+    },
+    {
+        "action":  {"type": "block"},
+        "trigger": {"url-filter": "http://i.t.webtracker.jp/*"}
+    },
+    {
+        "action":  {"type": "block"},
+        "trigger": {"url-filter": "http://pagead2.googlesyndication.com/*"}
+    },
+    {
+        "action":  {"type": "block"},
+        "trigger": {"url-filter": "http://js.kau.li/yad.js"}
+    },
+    {
+        "action":  {"type": "block"},
+        "trigger": {"url-filter": "https?://googleads.g.doubleclick.net/*"}
+    },
+    {
+        "action":  {"type": "block"},
+        "trigger": {"url-filter": "https?://cm.g.doubleclick.net/*"}
+    },
+    {
+        "action":  {"type": "block"},
+        "trigger": {"url-filter": "http://adf.send.microad.jp/*"}
+    },
+    {
+        "action":  {"type": "block"},
+        "trigger": {"url-filter": "http://as.wi.impact-ad.jp/*"}
+    },
+    {
+        "action":  {"type": "block"},
+        "trigger": {"url-filter": "http://j.microad.net/*"}
+    },
+    {
+        "action":  {"type": "block"},
+        "trigger": {"url-filter": ".*/ad/ad.cgi*"}
+    },
+    {
+        "action":  {"type": "block"},
+        "trigger": {"url-filter": "http://yads.c.yimg.jp/js/yads.js"}
+    },
+    {
+        "action":  {"type": "css-display-none","selector": ".social"},
+        "trigger": {"url-filter": "http://m.www.watch.impress.co.jp/*"}
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "#appbnr, #side, #posNM, .theme, .navTheme, .boxMore, #airinf, #mdStaInfo, #pos-smon, #footer, #_idpfLP_wrapper"
+        },
+        "trigger": {
+            "url-filter": "http://transit.yahoo.co.jp/*"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "#header, .appTextLink, .sns_btn, #bnr, #video, #ydn-smon, #yjImgSLink, #ad-sult, #footer"
+        },
+        "trigger": {
+            "url-filter": "http://weather.yahoo.co.jp/*"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "#rsab, #kisekaeBalloon, #_idpfLP_wrapper, .PremiumFirst"
+        },
+        "trigger": {
+            "url-filter": "http://m.yahoo.co.jp/"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": ".sbn, #otherad, #ufad, .adsbygoogle, #rticon"
+        },
+        "trigger": {
+            "url-filter": "http://gigazine.net/"
+        }
+    }
+]

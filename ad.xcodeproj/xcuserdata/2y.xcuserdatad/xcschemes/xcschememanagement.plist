@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ContentBlocker.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>ad.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>1F52B8CF1BB4F5B500EBFFD9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F52B8E51BB4F61900EBFFD9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
